@@ -8,6 +8,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 
     background-color: white;
     border-bottom: 1px solid rgb(225, 225, 225);
@@ -103,6 +104,24 @@
 
 .notifications-icon{
     height: 24px;
+}
+
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    background-color: rgb(200, 0,0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    position: absolute;
+    top: -2px;
+    right: -5px;
 }
 
 .current-user-picture{
