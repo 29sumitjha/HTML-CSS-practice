@@ -19,6 +19,7 @@
         left: 0px;
         right: 0px;
         height: 50px;
+        z-index: 100;
     ">
         header
     </div>
@@ -34,6 +35,30 @@
         width: 72px;
     ">
         sidebar
+
+        <!--this div below will not be placed on page anymore, this div will placed relative to the sidebar's div element-->
+        <div style="
+            position: absolute;
+            background-color: red;
+            color: white;
+            right: 0;
+            top: 0;
+        
+        ">
+            X
+        </div>
+    </div>
+
+    <!--Position Absolute and Relative-->
+    <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+        top: 60px;
+        
+    ">
+        absolute
     </div>
 
     <div class="cd" style="
